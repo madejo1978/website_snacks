@@ -1,3 +1,86 @@
-body {
-    background-color: pink;
+/************* TOOLS *************/
+
+.debug {
+    border: 3px purple solid;
+}
+
+
+/************* GENERAL LAYOUT *************/
+* {
+    background-color: #fecb7f;
+}
+
+
+/************* FLEX-BOX *************/
+
+.flex-wrapper {
+display: flex;
+flex-direction: column;
+background-color: gray;
+height: 100%;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background2.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+
+/************* NAV-BAR *************/
+
+.navbar{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-logo{
+    height: 204px;
+    width: 300px;
+}
+
+.navbar li{
+    display: inline;
+    font-size: 30px;
+}
+
+.navbar li a{
+    display: inline;
+    text-decoration: none;
+    color: gray;
+    margin-right: 200px;
+    
+}
+
+.navbar-maandmenu {
+    display: flex;
+    flex:1;
+}
+
+
+/************* FLEX-MILKSHAKES *************/
+.milkshakes {
+    display:flex;
+    flex: 1;
+}
+
+.milkshakes:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/************* TEST 123 *************/
+
+.test123 {
+    display:flex;
+    flex: 1;
+}
+
+
+/************* FLEX-SPARERIBS *************/
+.spareribs {
+    display:flex;
+    flex: 1;
 }

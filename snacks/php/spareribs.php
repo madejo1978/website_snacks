@@ -8,13 +8,13 @@
     foreach ($db_result as $row)
     {            
         
-        echo '<div class="card">' .
+        echo '<div class="milkshakes">' .
              '<a href="?user_ID=' . $row['product_id'] . '">' .
-             '<img src="../' . $row['product_pic'] . '" alt="' . $row['product_name'] . '" style="width:30%">' .
+             '<img src="' . $row['product_pic'] . '" alt="' . $row['product_name'] . '" style="width:30%">' .
              '</a>' .
              '<h1>' . $row['product_name']  . ' ' . $row['product_price'] . '</h1>' .
              '<p class="title">' . $row['product_description'] . '</p>' .           
-             '<p>BESTMILKSHAKE THERE IS</p>' .
+             '<p>BEST SPARERIB THERE IS</p>' .
              '</div>';  
     }       
 
