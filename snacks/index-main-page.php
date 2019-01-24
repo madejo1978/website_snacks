@@ -12,14 +12,14 @@
             <div class="navbar-mainpage">
                 <img class="logo" src="img/logo.png" alt="De Leeuw Snacks logo">
                 <ul class="navbar-mainpage-styling">
-                    <li><a href="#">Bestellen</a> </li>
-                    <li><a href="#">Aanbiedingen</a> </li>
-                    <li><a href="#">Nieuws</a> </li>
+                    <li><a href="index-bestellen.php">Bestellen</a></li>
+                    <li><a href="index-bestellen.php">Snack van de Maand</a></li>
+                    <li><a href="#">Nieuws</a></li>
                 </ul>
             </div>
         <div class="content-welcome">
             <h1>Welkom!<br>De Leeuw Snacks Bezorgservice</h1>
-            <a class="btn btn-mainpage-bestellen" href=" ">Mijn maag 'gromt'</a>
+            <a class="btn btn-mainpage-bestellen" href="index-bestellen.php">Mijn maag 'gromt'</a>
             <a class="btn btn-mainpage-meer-informatie" href=" ">Meer informatie</a>
         </div>
 

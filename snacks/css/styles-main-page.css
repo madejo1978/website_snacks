@@ -105,8 +105,8 @@ input[type=submit]
     transition-duration: 2s;
 }
 
-.btn-full:link,
-.btn-full:visited, 
+.btn-mainpage-bestellen:link,
+.btn-mainpage-bestellen:visited, 
 input[type=submit]
 {
     background-color: #e67e22;
@@ -115,8 +115,8 @@ input[type=submit]
     margin-right: 1px;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited,
+.btn-mainpage-meer-informatie:link,
+.btn-mainpage-meer-informatie:visited,
 input[type=submit]:hover,
 input[type=submit]:active
 {
