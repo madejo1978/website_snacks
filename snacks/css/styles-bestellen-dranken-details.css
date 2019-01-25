@@ -13,7 +13,8 @@
 }
 
 body {
-    background-color: orange;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.39)), url(../img/background2.jpg);
+    background-size: cover;
     font-family: 'Lato', 'arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -69,27 +70,12 @@ margin-left: 40px;
     display: flex;
     flex-direction: column;
     background-color: orange;
-    height: 100vh;
-    width: 100%;
     }
 
 /************* FLEX-DRANKEN *************/
 .dranken {
     display:flex;
-    flex: 0.5;
-    align-items: flex-start;
-}
-
-.titel-dranken {
-    margin: 20px 20px;
-}
-
-.titel-dranken p {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 80%;
-    
+    flex: 1;
 }
 
 .dranken:hover {
@@ -102,20 +88,8 @@ margin-left: 40px;
     display:flex;
     flex: 1;
     align-items: flex-start;
+
 }
-
-.titel-snacks {
-    margin: 20px 20px;
-}
-
-.titel-snacks p {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 80%;
-}
-
-
 .snacks:hover {
     transform: scale(1.1);
     cursor: pointer;

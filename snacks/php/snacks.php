@@ -1,9 +1,9 @@
 <?php
     include "db_connection.php";        
 
-    //$user_id = $_GET['product_type'];
+    //$user_id = $_GET['product_id'];
 
-    $sql_querie = "SELECT product_id, product_pic FROM products WHERE product_type = 'snacks'";
+    $sql_querie = "SELECT product_id, product_type, product_price, product_name, product_pic, product_description FROM products WHERE product_type = 'snacks'";
     
     $db_result = $conn->query($sql_querie);  
 
@@ -11,7 +11,7 @@
     {            
         
         echo '<div class="snacks">' .
-             '<a href="snacks.php?product_id=' . $row['product_id'] . '">' .
+             '<a href="index-bestellen-snacks-details.php?product_id=' . $row['product_id'] . '">' .
              '<img src="' . $row['product_pic'] . '" alt="' . ' ' . '" style="width:100%">' .
              '</a>' .
              '<h1>' . ' ' . ' ' . ' ' . '</h1>' .
