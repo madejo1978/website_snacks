@@ -104,6 +104,14 @@ margin-left: 40px;
     align-items: flex-start;
 }
 
+.snacks-details-left {
+    display: flex
+}
+
+.snacks-details-right {
+    display: flex
+}
+
 .titel-snacks {
     margin: 20px 20px;
 }

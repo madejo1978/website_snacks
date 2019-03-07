@@ -22,8 +22,7 @@
             <div class="snacks-details-left">
                 <?php include "php/snacks-details.php"; ?></div>
 
-            <div class="snacks-details-right"></div>
-        </div>
-
+                <div class="snacks-details-right"></div>
+            </div>
     </body>
 </html>

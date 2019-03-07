@@ -1,0 +1,181 @@
+/************* TOOLS *************/
+
+.debug {
+    border: 3px purple dashed;
+}
+
+
+/************* GENERAL LAYOUT *************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************* NAV-BAR *************/
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+}
+.navigation-center {
+    display: flex;
+    align-items: center;
+}
+.navigation-icons {
+    display: flex;
+    align-items: center;   
+}
+
+
+/************* LOGIN-PAGE *************/
+
+/*** LOGIN ***/
+.login-container {
+    display: flex;
+    height: 528px;
+    width: 100%;
+    background-image: url("../img/background/background_shell.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+}
+
+.login-existing {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.login-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/************ FILTER LAYOUT ******************/
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: lightgrey;
+    height: 50px;
+}
+
+.filter-left {
+    display: flex;
+    align-items: center;
+}
+
+.filter-center {
+    display: flex;
+    align-items: center;
+}
+
+.filter-right {
+    display: flex;    
+    align-items: center;    
+}
+
+/************* MAIN-PAGE *************/
+
+/*** Hero-Image ***/
+.main-page {
+    display: flex;
+    height: 528px;
+    justify-content: center;
+    width: 100%;
+    background-image: url("../img/background/background_shell.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.main-page-text {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main-page-button {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+/************* FILTER *************/
+
+/************* Dropdown *************/
+
+.filter-dropdown {
+position: relative;
+display: inline-block;
+margin-right: 200px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.filter-dropdown a:hover {background-color: grey;}
+
+.button-category {
+    background-color:transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;}
+  
+.show {
+    display: block;}
+
+/************* PRODUCTS *************/
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgrey;
+    align-items: center;
+}
+
+#product-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    mix-blend-mode: multiply;
+    justify-content: center;
+}
+
+.product-row1,
+.product-row2,
+.product-row3,
+.product-row4,
+.product-row5 
+{
+    display: flex;
+    mix-blend-mode: multiply;
+}
